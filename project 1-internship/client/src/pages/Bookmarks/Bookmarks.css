@@ -1,0 +1,6 @@
+.bookmarks-header { display: flex; align-items: flex-start; justify-content: space-between; gap: 20px; margin-bottom: 32px; flex-wrap: wrap; }
+.bookmark-search { position: relative; }
+.bm-search-icon { position: absolute; left: 14px; top: 50%; transform: translateY(-50%); color: var(--text-muted); pointer-events: none; }
+.bm-search-input { padding-left: 42px !important; min-width: 280px; }
+.bookmarks-empty { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; padding: 80px 24px; text-align: center; background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-lg); color: var(--text-muted); }
+.bookmarks-empty h3 { font-size: 18px; font-weight: 700; color: var(--text-primary); }
